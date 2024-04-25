@@ -16,7 +16,7 @@ export class MainGeistComponent {
   searchResultSection: ElementRef | null = null;
 
   // Octocat image URL
-  octocatImageUrl: string = '/assets/images/yogitocat.webp';
+  // octocatImageUrl: string = '/assets/images/yogitocat.webp';
 
   // Input property for the username to search
   username: string = '';
@@ -46,7 +46,7 @@ export class MainGeistComponent {
   loadingUser: boolean = false;
 
   // Dropdown options for items per page
-  itemsPerPageOptions: number[] = [10, 15, 25, 50, 100];
+  itemsPerPageOptions: number[] = [10, 20, 25, 50, 100];
 
   // Constructor to inject GitHub service
   constructor(private githubService: GithubApiService) {}

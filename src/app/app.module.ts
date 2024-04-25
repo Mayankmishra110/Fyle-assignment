@@ -8,14 +8,14 @@ import { FooterComponent } from './footer/footer.component';
 import { UserInputComponent } from './main-geist/user-input/user-input.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
+// import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 
 import { UtilPaginationComponent } from './main-geist/util-pagination/util-pagination.component';
 import { UserRepoListComponent } from './main-geist/user-repo-list/user-repo-list.component';
 import { UserGithubProfileComponent } from './main-geist/user-github-profile/user-github-profile.component';
 import { InvalidUserProfileComponent } from './main-geist/invalid-user-profile/invalid-user-profile.component';
-import { UtilUserProfileLoaderComponent } from './main-geist/util-user-profile-loader/util-user-profile-loader.component';
-import { UtilUserRepoLoaderComponent } from './main-geist/util-user-repo-loader/util-user-repo-loader.component';
+// import { UtilUserProfileLoaderComponent } from './main-geist/util-user-profile-loader/util-user-profile-loader.component';
+// import { UtilUserRepoLoaderComponent } from './main-geist/util-user-repo-loader/util-user-repo-loader.component';
 
 @NgModule({
   declarations: [
@@ -28,14 +28,14 @@ import { UtilUserRepoLoaderComponent } from './main-geist/util-user-repo-loader/
     UserGithubProfileComponent,
     FooterComponent,
     InvalidUserProfileComponent,
-    UtilUserProfileLoaderComponent,
-    UtilUserRepoLoaderComponent,
+    // UtilUserProfileLoaderComponent,
+    // UtilUserRepoLoaderComponent,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    NgxSkeletonLoaderModule,
+    // NgxSkeletonLoaderModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
